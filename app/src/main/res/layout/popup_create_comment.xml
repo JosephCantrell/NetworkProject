@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roundedbuttongrey"
+    android:weightSum="5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:text="@string/TV_Comment_Email"
+        android:gravity="top"
+        android:textAlignment="center"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:id="@+id/ET_User_Comment_Email"
+        android:hint="@string/TV_Comment_Email"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:textAlignment="center"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:text="@string/TV_Comment_Title"
+        android:textAlignment="center"
+        android:gravity="top"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:id="@+id/ET_User_Comment_Title"
+        android:hint="@string/TV_Comment_Title"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:textAlignment="center"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:text="@string/TV_Comment_Body"
+        android:gravity="top"
+        android:textAlignment="center"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.1"
+        android:id="@+id/ET_User_Comment_Body"
+        android:hint="@string/TV_Comment_Body"
+        android:inputType="textMultiLine"
+        android:textIsSelectable="true"
+        android:focusable="true"
+        android:gravity="top"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:id="@+id/Button_Submit_Comment"
+        android:background="@drawable/roundedbuttonblue"
+        android:text="@string/Button_Comment_Submit"/>
+
+
+
+</LinearLayout>

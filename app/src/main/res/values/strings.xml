@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Fake Forum</string>
+    <string name="title">Network Program</string>
+    <string name="LV_postID">Post ID:</string>
+    <string name="LV_Username">Username:</string>
+    <string name="LV_Title">Post Title:</string>
+    <string name="LV_Body">Post Body:</string>
+    <string name="LV_Comment_Body">Body:</string>
+    <string name="LV_Comment_Email">Email:</string>
+    <string name="LV_Comment_Title">Title:</string>
+    <string name="TV_User_Name">Name:</string>
+    <string name="TV_User_Username">Username:</string>
+    <string name="TV_User_Email">Email:</string>
+    <string name="TV_User_Phone">Phone Number:</string>
+    <string name="TV_Website">Website: </string>
+    <string name="TV_User_Posts">User Posts</string>
+    <string name="TV_User_Location">User Location</string>
+    <string name="Button_Make_Comment">Write A Comment</string>
+    <string name="TV_Comment_Email">Your Email:</string>
+    <string name="TV_Comment_Title">Comment Title:</string>
+    <string name="TV_Comment_Body">Comment Body:</string>
+    <string name="ET_Comment_Email">Write your email</string>
+    <string name="ET_Comment_Title">Write your Title</string>
+    <string name="ET_Comment_Body">Write your Body</string>
+    <string name="Button_Comment_Submit">Submit Comment</string>
+</resources>

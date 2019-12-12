@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:weightSum="10"
+    android:background="@drawable/roundedbuttongrey">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:gravity="center"
+        android:text="@string/LV_Comment_Email"
+        android:textAlignment="center"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/TV_LV_Comment_Email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/LV_Comment_Email"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:gravity="center"
+        android:text="@string/LV_Comment_Title"
+        android:textAlignment="center"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/TV_LV_Comment_Title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/LV_Comment_Title"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:gravity="center"
+        android:text="@string/LV_Comment_Body"
+        android:textAlignment="center"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/TV_LV_Comment_Body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.5"
+        android:hint="@string/LV_Comment_Body"
+        android:textSize="14sp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/userPost"
+    android:weightSum="10">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:text="@string/LV_Username"
+        android:textAllCaps="true"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/TV_LV_Post_Username"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:hint="@string/LV_Username"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:textAllCaps="true"
+        android:text="@string/LV_Title"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/TV_LV_Post_Title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:text="@string/LV_Title"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:textAllCaps="true"
+        android:text="@string/LV_Body"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/TV_LV_Post_Body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/LV_Body"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.2"
+        android:id="@+id/LV_Comment_List"/>
+
+    <Button
+        android:id="@+id/Button_Write_Comment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundedbuttonblue"
+        android:onClick="createCommentOnClick"
+        android:text="@string/Button_Make_Comment"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+
+</LinearLayout>
